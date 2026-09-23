@@ -1,8 +1,8 @@
 import pandas as pd
 
 #---------Load-----
-input_path= "C:/Users/Dr Junaid/Downloads/SQLiV3.csv.zip"
-output_path= "C:/Users/Dr Junaid/Desktop/mysql/SQLiV3_cleaned.csv"
+input_path= "C:/Users/Downloads/SQLiV3.csv.zip"
+output_path= "C:/Users/Desktop/mysql/SQLiV3_cleaned.csv"
 df= pd.read_csv(
     input_path,
     usecols=[0, 1],
